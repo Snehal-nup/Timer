@@ -1,0 +1,92 @@
+#container {
+  margin: 400px;
+  margin-top: 8vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 10px;
+  height: auto;
+  background-color: #41b555;
+  color: white;
+  font-family: "Englebert", sans-serif;
+}
+.label {
+  text-align: center;
+}
+#hour-label {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+#minute-label {
+  grid-column: 4;
+  grid-row: 1;
+}
+
+#sec-label {
+  grid-column: 6;
+  grid-row: 1;
+}
+#hour {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+#minute {
+  grid-column: 4;
+  grid-row: 2;
+}
+#second {
+  grid-column: 6;
+  grid-row: 2;
+}
+
+#start {
+  grid-column: 2/3;
+  grid-row: 3;
+}
+#reset {
+  grid-column: 4/5;
+  grid-row: 3;
+}
+#stop {
+  grid-column: 6/7;
+  grid-row: 3;
+}
+.time {
+  width: 60px;
+  height: 60px;
+}
+
+.semi {
+  grid-column: 3;
+  grid-row: 2;
+  text-align: left;
+  font-size: 22px;
+}
+.colon {
+  grid-column: 5;
+  grid-row: 2;
+  text-align: left;
+}
+.button {
+  text-align: center;
+  margin: 10px;
+  margin-top: 20px;
+  font-size: 18px;
+  width: 6vw;
+  background-color: white;
+  color: #41b555;
+  border: none;
+  font-family: "Englebert", sans-serif;
+}
+.time {
+  text-align: center;
+  font-size: 32px;
+  background-color: #41b555;
+  color: white;
+  border: none;
+}
+html {
+  font-size: 2vw;
+}
